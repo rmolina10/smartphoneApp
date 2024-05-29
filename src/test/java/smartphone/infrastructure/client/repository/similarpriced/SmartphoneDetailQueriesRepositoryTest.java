@@ -11,8 +11,6 @@ import org.springframework.web.reactive.function.client.WebClient;
 import org.springframework.web.reactive.function.client.WebClientResponseException;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
-import smartphone.domain.exception.SmartphoneNotFoundException;
-import smartphone.domain.exception.SmartphoneRepositoryException;
 import smartphone.domain.similarpriced.model.SmartphoneDetail;
 
 import java.math.BigDecimal;
